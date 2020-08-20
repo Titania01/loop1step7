@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: #f2ce97;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25rem auto;
+  width: 55vw;
+  background-color: #fff;
+  margin: 7rem auto;
+  max-width: 100%;
+}
+
+.user-info {
+  background-color: #474855;
+  color: #fff;
+  padding: 4rem 3rem 3rem;
+
+}
+
+.man,
+.women {
+  font-size: 30px;
+}
+
+.line {
+  border-top: 4px solid #e37a61;
+  height: .5rem;
+  width: 4rem;
+  margin-top: .75rem;
+}
+
+
+.avata {
+  display: flex;
+  margin-top: 30vh;
+  align-items: center;
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.pee {
+  padding-left: 1rem;
+}
+
+.more-info {
+  font-size: 20px;
+  color: #443e4f;
+}
+
+.tee {
+  font-weight: 600;
+  font-size: 26px;
+} 
+
+.border {
+  border-top: 8px solid whitesmoke;
+  height: 3rem;
+  width: 33vw;
+  margin-top: 2rem;
+}
+
+.texty {
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.text {
+  padding-top: 4rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 16px;
+}
+
+.time {
+  font-weight: 600;
+  color:black
+}
+
+.message{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 6rem;
+}
+
+.more {
+  padding-left: .9rem;
+}
+
+.nom {
+  color:#d3d3d3;
+}
+
+
+/* .comment {
+  padding-left: 1rem;
+} */
+
+/* aside {
+  height: 65vh;
+  width: 22vw;
+  background: #474855;
+  padding: 4rem 3rem;
+  color: white;
+  max-width: 100%;
+}
+
+aside h4, .pee {
+  font-size: 30px;
+}
+
+.line {
+  border-top: 4px solid #e37a61;
+  width: 4rem;
+  height: .5rem;
+  margin-top: .75rem;
+}
+
+.image {
+  display: flex;
+  margin-top: 35vh;
+  align-items: center;
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 18px;
+  padding-left: 1rem;
+}
+
+
+.text {
+  font-size: 20px;
+  padding: 4rem 3rem;
+  color: #443e4f;
+}
+
+.tee {
+  font-weight: 600;
+  font-size: 26px;
+} */
+
